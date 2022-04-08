@@ -29,6 +29,8 @@ The two main objectives of the visualization are:
 The following figures present the number of wine produced in each country, this gives us information about the spatial distribution of the data. Thus, it appears that the great majority of the big wine producers are European countries, notably France and Italy.  The United States and Chile present nevertheless important production. 
 ![plot](./plots/PAYS.png)
 ![plot](./plots/Top15.png)
+
+This second histogram show the most represented grape varieties in the data set. 
 ![plot](./plots/grape_varieties.png)
 
 ### Related work
