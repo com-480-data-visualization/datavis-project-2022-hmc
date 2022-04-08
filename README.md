@@ -37,8 +37,8 @@ We also found a website that let you enter some wine characteristics (of the tas
 
 References to the work mentioned above:
 
-https://stevejoachim.github.io/wine-data-viz/
+Interactive Visualization of Washington Wine, with flavor filtering: https://stevejoachim.github.io/wine-data-viz/
 
-https://projectvisualizewine.wordpress.com/
+Nice interactive wine statistics (price and ratings): https://projectvisualizewine.wordpress.com/
 
-https://towardsdatascience.com/un-bottling-the-data-2da3187fb186
+Different data exploration methods using data on wine: https://towardsdatascience.com/un-bottling-the-data-2da3187fb186
