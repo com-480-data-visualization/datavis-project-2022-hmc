@@ -30,7 +30,8 @@ The following figures present the number of wine produced in each country, this 
 ![plot](./plots/PAYS.png)
 ![plot](./plots/Top15.png)
 
-This second histogram show the most represented grape varieties in the data set. 
+This second histogram show the most represented grape varieties in the data set. Thus, it appears that the "Cabernet Sauvignon", the "Chardonnay" and "the "Pinot Noir" are the most produce varieties around the world according to our data set. For the next steps, we will represent this information at the country and regional level to highlight the likely change in the distribution of the variety produced between countries and regions.
+
 ![plot](./plots/grape_varieties.png)
 
 ### Related work
