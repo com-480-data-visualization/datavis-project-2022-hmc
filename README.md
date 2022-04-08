@@ -26,8 +26,7 @@ The two main objectives of the visualization are:
 
 
 ### Exploratory Data Analysis
-Pre-processing of the data set you chose
-• Show some basic statistics and get insights about the data
+The following figures present the number of wine produced in each country, this gives us information about the spatial distribution of the data. It appears then that the great majority of the big wine producers are European countries, notably France and Italy.  The United States and Chile present nevertheless important production. 
 ![plot](./plots/PAYS.png)
 ![plot](./plots/Top15.png)
 ![plot](./plots/grape_varieties.png)
