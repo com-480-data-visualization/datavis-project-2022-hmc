@@ -26,11 +26,11 @@ The two main objectives of the visualization are:
 
 
 ### Exploratory Data Analysis
-The following figures present the number of wine produced in each country, this gives us information about the spatial distribution of the data. Thus, it appears that the great majority of the big wine producers are European countries, notably France and Italy.  The United States and Chile present nevertheless important production. 
+The following figures present the number of wine produced in each country, this gives us information about the spatial distribution of the data. Thus, it appears that the great majority of the big wine producers are European countries, especially France and Italy.  The United States and Chile present nevertheless important production. 
 ![plot](./plots/PAYS.png)
 ![plot](./plots/Top15.png)
 
-This second histogram show the most represented grape varieties in the data set. Thus, it appears that the "Cabernet Sauvignon", the "Chardonnay" and "the "Pinot Noir" are the most produce varieties around the world according to our data set. For the next steps, we will represent this information at the country and regional level to highlight the likely change in the distribution of the variety produced between countries and regions.
+This second histogram show the most represented grape varieties in the data set. Thus, it appears that the "Cabernet Sauvignon", the "Chardonnay" and "the "Pinot Noir" are the most produce varieties around the world according to our data set. For the next steps, we will represent this information at the country and regional level to highlight the likely change in the distribution of the variety produced between countries and regions. 
 
 ![plot](./plots/grape_varieties.png)
 
