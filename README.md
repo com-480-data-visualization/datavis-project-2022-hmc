@@ -28,6 +28,9 @@ The two main objectives of the visualization are:
 ### Exploratory Data Analysis
 Pre-processing of the data set you chose
 • Show some basic statistics and get insights about the data
+![plot](./plots/PAYS.png)
+![plot](./plots/Top15.png)
+![plot](./plots/grape_varieties.png)
 
 ### Related work
 
