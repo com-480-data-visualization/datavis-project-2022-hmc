@@ -34,6 +34,8 @@ We took some time to look around and see what had already been done with wine da
 
 We also found a website that let you enter some wine characteristics(of the taste), such as the acidity, the smokiness, the tannin, etc. Once you select your favorite taste specificities, the result is a list of wines corresponding to all these features. We really liked this principle and are willing to integrate a similar way of filtering the wine database. In addition to a simple list of wines as an output, we would like to go a little bit further and pin down each wine on a map to be able to see their origin.
 
+References to the work mentioned above:
+
 https://stevejoachim.github.io/wine-data-viz/
 
 https://projectvisualizewine.wordpress.com/
