@@ -1,86 +1,134 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Grayscale - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
 
-  .names {
-  fill: none;
-  stroke: #fff;
-  stroke-linejoin: round;
-  }
+          .names {
+          fill: none;
+          stroke: #fff;
+          stroke-linejoin: round;
+          }
 
-    /* Tooltip CSS */
-    .d3-tip {
-    line-height: 1.5;
-    font-weight: 400;
-    font-family:"avenir next", Arial, sans-serif;
-    padding: 6px;
-    background: rgba(0, 0, 0, 0.6);
-    color: #FFA500;
-    border-radius: 1px;
-    pointer-events: none;
-    }
+            /* Tooltip CSS */
+            .d3-tip {
+            line-height: 1.5;
+            font-weight: 400;
+            font-family:"avenir next", Arial, sans-serif;
+            padding: 6px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #FFA500;
+            border-radius: 1px;
+            pointer-events: none;
+            }
 
-    /* Creates a small triangle extender for the tooltip */
-    .d3-tip:after {      
-      box-sizing: border-box;
-      display: inline;
-      font-size: 8px;
-      width: 100%;
-      line-height: 1.5;
-      color: rgba(0, 0, 0, 0.6);
-      position: absolute;
-      pointer-events: none;
-      
-    }
+            /* Creates a small triangle extender for the tooltip */
+            .d3-tip:after {      
+              box-sizing: border-box;
+              display: inline;
+              font-size: 8px;
+              width: 100%;
+              line-height: 1.5;
+              color: rgba(0, 0, 0, 0.6);
+              position: absolute;
+              pointer-events: none;
+              
+            }
 
-    /* Northward tooltips */
-    .d3-tip.n:after {
-      content: "\25BC";
-      margin: -1px 0 0 0;
-      top: 100%;
-      left: 0;
-      text-align: center;
-    }
+            /* Northward tooltips */
+            .d3-tip.n:after {
+              content: "\25BC";
+              margin: -1px 0 0 0;
+              top: 100%;
+              left: 0;
+              text-align: center;
+            }
 
-    /* Eastward tooltips */
-    .d3-tip.e:after {
-      content: "\25C0";
-      margin: -4px 0 0 0;
-      top: 50%;
-      left: -8px;
-    }
+            /* Eastward tooltips */
+            .d3-tip.e:after {
+              content: "\25C0";
+              margin: -4px 0 0 0;
+              top: 50%;
+              left: -8px;
+            }
 
-    /* Southward tooltips */
-    .d3-tip.s:after {
-      content: "\25B2";
-      margin: 0 0 1px 0;
-      top: -8px;
-      left: 0;
-      text-align: center;
-    }
+            /* Southward tooltips */
+            .d3-tip.s:after {
+              content: "\25B2";
+              margin: 0 0 1px 0;
+              top: -8px;
+              left: 0;
+              text-align: center;
+            }
 
-    /* Westward tooltips */
-    .d3-tip.w:after {
-      content: "\25B6";
-      margin: -4px 0 0 -1px;
-      top: 50%;
-      left: 100%;
-    }
+            /* Westward tooltips */
+            .d3-tip.w:after {
+              content: "\25B6";
+              margin: -4px 0 0 -1px;
+              top: 50%;
+              left: 100%;
+            }
 
-/*    text{
-      pointer-events:none;
-    }*/
+        /*    text{
+              pointer-events:none;
+            }*/
 
-    .details{
-      color:white;
-    }
+            .details{
+              color:white;
+            }
 
-</style>
-<body>
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">HMC</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Search</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Search</h2>
+                        <p class="text-white-50">
+                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
+                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
+                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script src="d3-tip.js"></script>
+
 <script>
 var format = d3.format(",");
 
