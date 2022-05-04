@@ -102,9 +102,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Search</a></li>
+                        <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
                     </ul>
                 </div>
             </div>
@@ -114,11 +114,9 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Search</h2>
+                        <h2 class="text-white mb-4">Location</h2>
                         <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                            Explore different locations of vineyards, with aggregated statistics.
                         </p>
                     </div>
                 </div>
@@ -137,7 +135,7 @@ var tip = d3.tip()
             .attr('class', 'd3-tip')
             .offset([-10, 0])
             .html(function(d) {
-              return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Population: </strong><span class='details'>" + format(d.population) +"</span>";
+              return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Number of wine: </strong><span class='details'>" + format(d.population) +"</span>";
             })
 
 var margin = {top: 0, right: 0, bottom: 0, left: 0},
@@ -167,7 +165,7 @@ svg.call(tip);
 
 queue()
     .defer(d3.json, "world_countries.json")
-    .defer(d3.tsv, "world_population.tsv")
+    .defer(d3.tsv, "wine_loc.tsv")
     .await(ready);
 
 function ready(error, data, population) {
