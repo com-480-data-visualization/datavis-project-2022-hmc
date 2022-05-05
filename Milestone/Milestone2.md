@@ -28,4 +28,4 @@ An extra idea that we had is a way to get from the map to the filter and vice ve
 
 ## Links:
 Here is the link to our website prototype: [Prototype](https://com-480-data-visualization.github.io/datavis-project-2022-hmc/index.html) \
-This is the architecture we would like to have: [Architecture](../docs/Data_vis_maquette.pdf) 
+This is the architecture we would like to have: [Architecture](../docs/Data_viz_maquette.pdf) 
