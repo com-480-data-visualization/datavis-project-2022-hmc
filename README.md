@@ -8,8 +8,10 @@
 
 ## Milestones
 
-### Milestone 1:(./Milestone/Milestone1.md)
-### Milestone 2:(./Milestone/Milestone2.md)
+### Milestone 1: 
+(./Milestone/Milestone1.md)
+### Milestone 2: 
+(./Milestone/Milestone2.md)
 
 ## Milestone 1
 
