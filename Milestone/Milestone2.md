@@ -3,8 +3,8 @@ We have two main ideas that we would like to implement for our wine dataset. The
 
 ## Website structure:
 We would like to have a nice introduction page, showing some images and giving a few definitions about some terms linked to the wine domain. We would like to also give a few informations about the production line a a wine. The reader will be able to learn a few things before diving into the rest of the website.\
-**Related lectures:** Designing vis\
-**Tools:**
+**Related lectures:** Designing vis, Text\
+**Tools:** 
 
 ## World map visualization:
 We aim at creating a nice and interactive way to visualize our dataset on a map. On the initial world map, every country is represented in a color depending on the number of wine they produce and that are present in our dataset. The user is then able to click on a continent to zoom in. Clicking a second time makes it possible to zoom in on a country. 
@@ -19,7 +19,7 @@ Some people like acidic wines, some don’t. Some people like wine with tannin, 
 
 The filter we would like to implement enables you to find your very own wine. The user is able to select every characteristic he wants. Whether the user is on a budget and doesn’t want an expensive bottle, or if he is looking for a specific taste, or if he wants to drink a wine coming from Argentina, etc. Once you’ve chosen how the wine has to be, you can have a look at the list of every wine corresponding to your description.
 ![plot](../plots/SSfilter.png)
-**Related lectures:** \
+**Related lectures:** Designing viz\
 **Tools:** 
 
 ## Extra ideas:
