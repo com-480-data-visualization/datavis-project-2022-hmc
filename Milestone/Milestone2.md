@@ -21,7 +21,7 @@ At every step, we would like to show some statistics about the chosen location. 
 ## Filter
 Some people like acidic wines, some don’t. Some people like wine with tannin, and again, some don’t. What do you like? Both?
 
-The filter we would like to implement enables you to find your very own wine. The user is able to select every characteristic he wants. Whether the user is on a budget and doesn’t want an expensive bottle, or if he is looking for a specific taste, or if he wants to drink a wine coming from Argentina, etc. Once you’ve chosen how the wine has to be, you can have a look at the list of every wine corresponding to your description.\
+The filter we would like to implement enables you to find your very own wine. The user is able to select every characteristic he wants. Whether the user is on a budget and doesn’t want an expensive bottle, or if he is looking for a specific taste, or if he wants to drink a wine coming from Argentina, etc. Once you’ve chosen how the wine has to be, you can have a look at the list of every wine corresponding to your description.
 
 ![plot](../plots/SSfilter.png)
 
