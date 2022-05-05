@@ -6,6 +6,11 @@
 | Marie Gaiffe | 272409 |
 | Clément Lhoste |284554 |
 
+## Milestones
+
+### Milestone 1:(./Milestone/Milestone1.md)
+### Milestone 2:(./Milestone/Milestone2.md)
+
 ## Milestone 1
 
 ### Dataset
