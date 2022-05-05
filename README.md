@@ -9,9 +9,9 @@
 ## Milestones
 
 ### Milestone 1: 
-(./Milestone/Milestone1.md)
+[ref milestone1](./Milestone/Milestone1.md)
 ### Milestone 2: 
-(./Milestone/Milestone2.md)
+[ref milestone2](./Milestone/Milestone2.md)
 
 ## Milestone 1
 
