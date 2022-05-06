@@ -9,4 +9,4 @@
 ## Milestones
 
 ### Milestone 1:  [Milestone 1](./Milestone/Milestone1.md)
-### Milestone 2:  [Milestone 2](./Milestone/Milestone2.md)
+### Milestone 2:  [Milestone 2](./Milestone/Milestone2.md) (in pdf version: [Milestone 2](./Milestone/Milestone2.pdf) )
