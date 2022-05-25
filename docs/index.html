@@ -26,7 +26,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
                         <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
                     </ul>
@@ -40,56 +40,30 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Wine exploration</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">Learn about wine, explore vineyard around the world and search for specific wine bottles.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <a class="btn btn-primary" href="#projects">Get Started</a>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <br>
-            <br>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Wine</h2>
-                        <hr>
-                        <blockquote class="blockquote">
-                            <p class="text-white-50">[Noun] an alcoholic drink that is usually made from grapes, but can also be made from other fruits or flowers. It is made by fermenting the fruit with water and sugar.</p>
-                            <footer class="blockquote-footer">Cambridge Dictionnary</cite></footer>
-                        </blockquote>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
 
-                <!--<img class="img-fluid" src="assets/img/grapes_gva.jpg" alt="..." />-->
-            </div>
-        </section>
-        <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row align-items-center">
-                    <h2 class="text-center">Wine Informations</h2>
-                    <div class="col-xl-8 col-lg-7" id ='vis'>
+                    <div class="col-xl-6 col-lg-7" id ='vis'>
                         <!--<button onclick="triggerTransition()">Show Wine Varieties</button>-->
                     </div>
+                    <div class="col-xl-1 col-lg-2"></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Varieties</h4>
-                            <p class="text-black-50 mb-0">A variety is the type of grape. It is written here with a lower-case initial. If only one variety is mentioned on the bottle label, then the wine is called varietal and is named after the grape with a capital initial (Riesling, Pinot Noir, etc.). A varietal wine primarily shows the fruit: the grape variety dominates the wine flavour. </p>
+                            <p class="text-black-50 mb-0">A variety is the type of grape. If only one variety is mentioned on the bottle label, then the wine is called varietal. A varietal wine primarily shows the fruit: the grape variety dominates the wine flavour. Here we picked the most represented varieties in our dataset, that represent at least 100 bottles.</p>
                         </div>
                     </div>
                 </div>
-                <br>
+
+            <br>
+
+            <div class="container px-4 px-lg-5">
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
@@ -186,20 +160,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
             </div>
         </section>
+
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; HMC-Wine Exploration 2022</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
-       
+        <script src="js/scripts.js" charset="utf-8"></script>
         <script>
   // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
 var showTooltip = function(d) {
@@ -226,8 +196,8 @@ var showTooltip = function(d) {
   }
 // bubbleChart creation function; instantiate new bubble chart given a DOM element to display it in and a dataset to visualise
 function bubbleChart() {
-  const width = 700;
-  const height = 600;
+  const width = 800;
+  const height = 450;
 
   // location to centre the bubbles
   const centre = { x: width/2, y: height/2 };

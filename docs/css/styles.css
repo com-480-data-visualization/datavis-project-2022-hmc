@@ -7942,6 +7942,22 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+#vis, #tooltip{
+  font-family: "avenir next", Arial, sans-serif;
+  font-size: 10px;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.bubble {
+  stroke-width: 2px;
+  stroke: white;
+}
+
+.bubble:hover {
+  stroke: black;
+}
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -11605,18 +11621,18 @@ body {
 }
 
 .about-section {
-  padding-top: 4rem;
+  padding-top: 1rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 1rem ;
 }
 .projects-section .featured-text {
-  padding: 2rem;
+  padding: 1rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
@@ -11625,7 +11641,7 @@ body {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 1rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
