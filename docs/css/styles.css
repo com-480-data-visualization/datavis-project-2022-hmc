@@ -44,6 +44,9 @@
   --bs-black: #000;
   --bs-white: #fff;
   --bs-primary-rgb: 100, 161, 157;
+  --bs-teal-rgb:100, 161, 157;
+  --bs-darkgray-rgb:  122, 122, 122;
+  --bs-lightgray-rgb:  237, 237, 237;
   --bs-secondary-rgb: 116, 100, 161;
   --bs-success-rgb: 103, 194, 156;
   --bs-info-rgb: 28, 171, 196;
@@ -7942,7 +7945,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
-#vis, #tooltip{
+#vis, #tooltip,#tooltipAxis{
   font-family: "avenir next", Arial, sans-serif;
   font-size: 10px;
   margin: 0;
@@ -8043,6 +8046,23 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
+
+.bg-lightgray {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-lightgray-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-darkgray {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-darkgray-rgb), var(--bs-bg-opacity)) !important;
+}
+
+
+.bg-teal {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-teal-rgb), var(--bs-bg-opacity)) !important;
+}
+
 
 .bg-white {
   --bs-bg-opacity: 1;

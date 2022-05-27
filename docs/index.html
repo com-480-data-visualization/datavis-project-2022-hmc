@@ -46,7 +46,7 @@
             </div>
         </header>
 
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-lightgray" id="projects">
                 <!-- Featured Project Row-->
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-7" id ='vis'>
@@ -61,101 +61,166 @@
                     </div>
                 </div>
 
-            <br>
-
-            <div class="container px-4 px-lg-5">
+        </section>
+        <section class="bg-light" id="att-expl">
                 <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                <div class=" row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
+                        <div class="text-white" id="vis-sweetness"></div>
+                        <svg height="30" width="600">
+                            <defs>
+                              <marker id='head' orient="auto"
+                                markerWidth='3' markerHeight='4'
+                                refX='0.1' refY='2'>
+                                <path d='M0,0 V4 L2,2 Z' fill="black"/>
+                              </marker>
+                            </defs>
+
+                            <path
+                              id='arrow-line'
+                              marker-end='url(#head)'
+                              stroke-width='4'
+                              fill='none' stroke='black'  
+                              d='M80,10, 500 10,120'
+                              />
+                            <text x="80" y="30" style="font: bold 14px sans-serif">Sweetness</text>
+                        </svg>
+                    </div>
+                    <div class="col-xl-1 col-lg-2"></div>
+                    <div class="col-lg-4">
+                        <div class="bg-teal text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Sweetness</h4>
                                     <p class="mb-0 text-white-50">Needs no explanation. The opposite of sweet is dry. A wine can also be medium-dry or off-dry (i.e., just a hint of sweetness, but almost too faint to move the needle).</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <br>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
+                    <div class="col-lg-4 order-lg-first">
+                        <div class="bg-teal text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Acidity</h4>
                                     <p class="mb-0 text-white-50">Acidity is a big deal for white wines, and it makes them refreshing and crisp (or “sour” if it's overdone). Lower acidity makes a wine taste “fat.”</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-1 col-lg-2 order-lg-first"></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
                 </div>
+                <br>
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
+                    <div class="col-xl-1 col-lg-2"></div>
+                    <div class="col-lg-4">
+                        <div class="bg-teal text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Tanin</h4>
                                     <p class="mb-0 text-white-50">It’s all about the tannins for red wine. High tannin wines are astringent, maybe even bitter and inky. Lower tannin wines are smooth and soft, and depending on your tastes, more drinkable.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <br>
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
+                    
+                    <div class="col-lg-4 order-lg-first">
+                        <div class="bg-teal text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Body</h4>
                                     <p class="mb-0 text-white-50">This refers to the perceived “weight” and viscosity of the wine. A full-bodied wine feels thick, coating the sides of the glass as you swirl. A light-bodied wine is almost like water. A medium-bodied wine is in-betwee</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-1 col-lg-2"></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
                 </div>
             </div>
         </section>
-        
+
+        <br>
+
+        <section class="bg-lightgray">
+            <br>
+            
+            <br>
+            <br>
+            <div class="row gx-0 justify-content-center">
+                
+                <div class="col-lg-4 order-lg-first text-center">
+                    <h2 class="text-center">Explore wine locations</h2>
+                    <br>
+                    <p>Now, after few definitions and a little dive into some popular wine varieties, you are ready to explore the dataset on your own! First you will have the opportunity to select countries and some regions to obtain aggregated datas visualization.</p>
+
+                        <a class="btn btn-primary" href="location.html">Get Started</a>
+                </div>
+                <div class="col-xl-1 col-lg-2"></div>
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/SSstat.png" alt="..." /></div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="row gx-0 justify-content-center">
+
+                <div class="col-lg-6 order-lg-first"><img class="img-fluid" src="assets/img/SSfilter.png" alt="..." /></div>
+                <div class="col-xl-1 col-lg-2"></div>
+                <div class="col-lg-4 text-center">
+                                <h2 class="text-center">Search wines with a filter</h2>
+                    <br>
+                    <p>Finally, you can look for specific wine name, year, price, sweetness, type etc. Just let your imagination guide you and explore the dataset thanks to interactive filters</p>
+
+                        <a class="btn btn-primary" href="search.html">Get Started</a>
+                </div>
+                
+                
+            </div>
+            <br>
+            <br>
+        </section>
+
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-darkgray">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
+                    
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
+                                <i class="fas fa-robot text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Hendrik Hilsberg</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">Robotic Master Student, EPFL</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
+                                <i class="fas fa-earth-africa text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Marie Gaiffe</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50">SIE Master Student, EPFL</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <i class="fas fa-robot text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Clément Lhoste</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black-50">Robotic Master Student, EPFL</div>
                             </div>
                         </div>
                     </div>
@@ -164,7 +229,7 @@
         </section>
 
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; HMC-Wine Exploration 2022</div></footer>
+        <footer class="footer bg-darkgray small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; HMC-Wine Exploration 2022</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
@@ -213,7 +278,7 @@ function bubbleChart() {
 
   // charge is dependent on size of the bubble, so bigger towards the middle
   function charge(d) {
-    return Math.pow(d.radius, 2.0) * 0.1
+    return Math.pow(d.radius, 2.0) * 0.1 
   }
 
   // create a force simulation and add forces to it
@@ -346,5 +411,158 @@ var tooltip = d3.select("#vis")
                 .style("color", "white")
 
 </script>
+
+<script>
+
+ // -2- Create 3 functions to show / update (when mouse move but stay on same circle) / hide the tooltip
+  var showTooltipAxis = function(d) {
+    tooltipAxis
+      .transition()
+      .duration(200)
+    tooltipAxis
+      .style("opacity", 1)
+      //.html("Name: " + d.i)
+      .html("Name: "+d.varieties)
+      .style("left", (d3.mouse(this)[0]+10) + "px")
+      .style("top", (d3.mouse(this)[1]+10)  + "px")
+      console.log(d3.mouse(this))
+  }
+  var moveTooltipAxis = function(d) {
+    tooltipAxis
+      .style("left", (d3.mouse(this)[0]+10) + "px")
+      .style("top", (d3.mouse(this)[1]+10) + "px")
+  }
+  var hideTooltipAxis = function(d) {
+    tooltipAxis
+      .transition()
+      .duration(200)
+      .style("opacity", 0)
+  }
+// bubbleChart creation function; instantiate new bubble chart given a DOM element to display it in and a dataset to visualise
+function bubbleChartAxis() {
+  const width = 950;
+  const height = 400;
+
+  // location to centre the bubbles
+  const centre = { x: width/2, y: height/2 };
+
+
+  // these will be set in createNodes and chart functions
+  let svg = null;
+  let bubbles = null;
+  let labels = null;
+  let nodes = [];
+
+  // set up colour scale
+  const fillColour = d3.scaleOrdinal()
+    .domain(["Red", "White", "Sparkling"])
+    .range(["#C70039", "#FEE9E1", "#ffd700"]);
+
+  // data manipulation function takes raw data from csv and converts it into an array of node objects
+  // each node will store data and visualisation values to draw a bubble
+  // rawData is expected to be an array of data objects, read in d3.csv
+  // function returns the new node array, with a node for each element in the rawData input
+  function createNodesAxis(rawData) {
+    // use max size in the data as the max in the scale's domain
+    // note we have to ensure that size is a number
+    const maxSize = d3.max(rawData, d => +d.size);
+
+
+    // size bubbles based on area
+    const radiusScale = d3.scaleSqrt()
+      .domain([0, maxSize])
+      .range([0, 50])
+
+    // use map() to convert raw data into node data
+    const myNodes = rawData.map(d => ({
+      ...d,
+      radius: radiusScale(+d.size),
+      size: +d.size,
+      x: Math.random() * 900,
+      y: Math.random() * 500
+    }))
+
+    return myNodes;
+  }
+
+  // main entry point to bubble chart, returned by parent closure
+  // prepares rawData for visualisation and adds an svg element to the provided selector and starts the visualisation process
+  let chartAxis = function chartAxis(selector, rawData) {
+    // convert raw data into nodes data
+    nodes = createNodesAxis(rawData);
+
+    // create svg element inside provided selector
+    svg = d3.select(selector)
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+
+
+    // bind nodes data to circle elements
+    const elements = svg.selectAll('.bubble')
+      .data(nodes, d => d.id)
+      .enter()
+      .append('g')
+
+
+    bubbles = elements
+      .append('circle')
+      .classed('bubble', true)
+      .attr('r', d => d.radius)
+      .attr('fill', d => fillColour(d.type))
+      .attr("cx", d => d.tannin*120)
+      .attr("cy", d =>900-Math.log(d.size)*110) // or use d.size (1-) //d.id*15+120 //1000-Math.log(d.size)*110 //200-d.size/25
+      .on("mouseover", showTooltipAxis)
+      .on("mousemove", moveTooltipAxis)
+      .on("mouseleave", hideTooltipAxis)
+
+
+    //Append group and insert axis
+    elements.append("svg:defs").append("svg:marker")
+    .attr("id", "triangle")
+    .attr("refX", 6)
+    .attr("refY", 6)
+    .attr("markerWidth", 30)
+    .attr("markerHeight", 30)
+    .attr("orient", "auto")
+    .append("path")
+    .attr("d", "M 0 0 12 6 0 12 3 6")
+    .style("fill", "black");
+
+
+
+  }
+
+
+  // return chart function from closure
+  return chartAxis;
+}
+
+// new bubble chart instance
+let myBubbleChartAxis = bubbleChartAxis();
+
+// function called once promise is resolved and data is loaded from csv
+// calls bubble chart function to display inside #vis div
+function display(data) {
+  myBubbleChartAxis('#vis-sweetness', data);
+}
+
+// load data
+d3.csv('wine_top_varieties3.csv').then(display);
+
+var tooltipAxis = d3.select("#vis-sweetness")
+                .append("div")
+                .attr('class', 'tooltipAxis')
+                .style('width', 200 + 'px')
+                .style("opacity", 0)
+                .style("background-color", "black")
+                .style("border-radius", "5px")
+                .style("position","relative")
+                .style("padding", "10px")
+                .style("color", "white")
+
+</script>
+
+
     </body>
 </html>
