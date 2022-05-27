@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <h1 class=>Find wine</h1>
+    <h2 class=>Search</h2>
+    <form id="form">
+    <!--<input class="form-control" id="user-input" placeholder="Enter something">-->
+    <input type="text" id="user-input" onkeyup="propositions()" placeholder="Search for names..">
+    <button id="button" class="btn btn-secondary">Find wine!</button>
+    </form>
+    <table class="table" cellpadding="10">
+      <thead>
+      <tr>
+      <th scope="col">#</th>
+      <th scope="col">name</th>
+      <th scope="col">producer</th>
+      <th scope="col">nation</th>
+      <th scope="col">local1</th>
+      </tr>
+      </thead>
+      <tbody>
+      </div>
+      </div>
+      </div>
+
+      <p>Do you mean: <span id="demo"></span></p>
+      
+  <!--<script src="https://d3js.org/d3.v7.min.js"></script>-->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+  <script type="text/javascript" src="propositions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
