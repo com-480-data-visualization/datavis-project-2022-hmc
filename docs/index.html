@@ -57,7 +57,18 @@
                         <div class="featured-text text-center text-lg-left">
                             <h4>Varieties</h4>
                             <p class="text-black-50 mb-0">A variety is the type of grape. If only one variety is mentioned on the bottle label, then the wine is called varietal. A varietal wine primarily shows the fruit: the grape variety dominates the wine flavour. Here we picked the most represented varieties in our dataset, that represent at least 100 bottles.</p>
+
                         </div>
+                        
+                    </div>
+                </div>
+
+                <div class="bg-darkgray" style="border-radius: 15px">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-7" id ="legend_size"></div>
+                        <div class="col-xl-3 col-lg-7" id ="legend_color1"></div>
+                        <div class="col-xl-3 col-lg-7" id ="legend_color2"></div>
+                        <div class="col-xl-3 col-lg-7" id ="legend_color3"></div>
                     </div>
                 </div>
 
@@ -370,6 +381,7 @@ function bubbleChart() {
     const radiusScale = d3.scaleSqrt()
       .domain([0, maxSize])
       .range([0, 80])
+      console.log(maxSize)
 
     // use map() to convert raw data into node data
     const myNodes = rawData.map(d => ({
@@ -470,7 +482,115 @@ var tooltip = d3.select("#vis")
                 .style("padding", "10px")
                 .style("color", "white")
 
+// append the svg object to the body of the page
+var height = 200
+var width = 400
+var svg = d3.select("#legend_size")
+  .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+
+// The scale you use for bubble size
+var size = d3.scaleSqrt()
+  .domain([0, 2786])  // What's in the data, let's say it is percentage
+  .range([0, 80])  // Size in pixel
+
+// Add legend: circles
+var valuesToShow = [100, 500, 2000]
+var xCircle = 230
+var xLabel = 320
+var yCircle = 170
+svg
+  .selectAll("legend")
+  .data(valuesToShow)
+  .enter()
+  .append("circle")
+    .attr("cx", xCircle)
+    .attr("cy", function(d){ return yCircle - size(d) } )
+    .attr("r", function(d){ return size(d) })
+    .style("fill", "none")
+    .attr("stroke", "black")
+
+// Add legend: segments
+svg
+  .selectAll("legend")
+  .data(valuesToShow)
+  .enter()
+  .append("line")
+    .attr('x1', function(d){ return xCircle + size(d) } )
+    .attr('x2', xLabel)
+    .attr('y1', function(d){ return yCircle - size(d) } )
+    .attr('y2', function(d){ return yCircle - size(d) } )
+    .attr('stroke', 'black')
+    .style('stroke-dasharray', ('2,2'))
+
+// Add legend: labels
+svg
+  .selectAll("legend")
+  .data(valuesToShow)
+  .enter()
+  .append("text")
+    .attr('x', xLabel)
+    .attr('y', function(d){ return yCircle - size(d) } )
+    .text( function(d){ return d } )
+    .style("font-size", 10)
+    .attr('alignment-baseline', 'middle')
+
+
+
+svg = d3.select("#legend_color1").append('svg').attr('viewBox', [0, 0, width, 200]);
+
+svg
+    .append('circle')
+    .attr('cx', '80%')
+    .attr('cy', '50%')
+    .attr('r', 60)
+    .style('fill', '#C70039');
+
+svg
+    .append('text')
+    .attr('dx', '80%')
+    .attr('dy', '53%')
+    .style('text-anchor', 'middle')
+    .style('font-size', 10)
+    .text('Red')
+
+svg = d3.select("#legend_color2").append('svg').attr('viewBox', [0, 0, width, 200]);
+
+svg
+    .append('circle')
+    .attr('cx', '50%')
+    .attr('cy', '50%')
+    .attr('r', 60)
+    .style('fill', '#FEE9E1');
+
+svg
+    .append('text')
+    .attr('dx', '50%')
+    .attr('dy', '53%')
+    .style('text-anchor', 'middle')
+    .style('font-size', 10)
+    .text('White')
+ 
+ svg = d3.select("#legend_color3").append('svg').attr('viewBox', [0, 0, width, 200]);
+
+svg
+    .append('circle')
+    .attr('cx', '20%')
+    .attr('cy', '50%')
+    .attr('r', 60)
+    .style('fill', '#ffd700');
+
+svg
+    .append('text')
+    .attr('dx', '20%')
+    .attr('dy', '53%')
+    .style('text-anchor', 'middle')
+    .style('font-size', 10)
+    .text('Sparkling')
+
 </script>
+
 
 <script>
 
