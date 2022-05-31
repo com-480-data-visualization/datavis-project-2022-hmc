@@ -81,9 +81,9 @@
                               marker-end='url(#head)'
                               stroke-width='4'
                               fill='none' stroke='black'  
-                              d='M80,10, 500 10,120'
+                              d='M80,8, 500 8,120'
                               />
-                            <text x="80" y="30" style="font: bold 14px sans-serif">Sweetness</text>
+                            <text x="80" y="25" style="font: bold 14px sans-serif">Sweetness</text>
                         </svg>
                     </div>
                     <div class="col-xl-1 col-lg-2"></div>
@@ -112,17 +112,57 @@
                         </div>
                     </div>
                     <div class="col-xl-1 col-lg-2 order-lg-first"></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="text-white" id="vis-acidity"></div>
+                        <svg height="30" width="600">
+                            <defs>
+                              <marker id='head' orient="auto"
+                                markerWidth='3' markerHeight='4'
+                                refX='0.1' refY='2'>
+                                <path d='M0,0 V4 L2,2 Z' fill="black"/>
+                              </marker>
+                            </defs>
+
+                            <path
+                              id='arrow-line'
+                              marker-end='url(#head)'
+                              stroke-width='4'
+                              fill='none' stroke='black'  
+                              d='M80,8, 500 8,120'
+                              />
+                            <text x="80" y="25" style="font: bold 14px sans-serif">Acidity</text>
+                        </svg>
+                    </div>
                 </div>
                 <br>
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="text-white" id="vis-tannin"></div>
+                        <svg height="30" width="600">
+                            <defs>
+                              <marker id='head' orient="auto"
+                                markerWidth='3' markerHeight='4'
+                                refX='0.1' refY='2'>
+                                <path d='M0,0 V4 L2,2 Z' fill="black"/>
+                              </marker>
+                            </defs>
+
+                            <path
+                              id='arrow-line'
+                              marker-end='url(#head)'
+                              stroke-width='4'
+                              fill='none' stroke='black'  
+                              d='M80,8, 500 8,120'
+                              />
+                            <text x="80" y="25" style="font: bold 14px sans-serif">Tannin</text>
+                        </svg>
+                    </div>
                     <div class="col-xl-1 col-lg-2"></div>
                     <div class="col-lg-4">
                         <div class="bg-teal text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Tanin</h4>
+                                    <h4 class="text-white">Tannin</h4>
                                     <p class="mb-0 text-white-50">It’s all about the tannins for red wine. High tannin wines are astringent, maybe even bitter and inky. Lower tannin wines are smooth and soft, and depending on your tastes, more drinkable.</p>
                                 </div>
                             </div>
@@ -137,13 +177,33 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Body</h4>
-                                    <p class="mb-0 text-white-50">This refers to the perceived “weight” and viscosity of the wine. A full-bodied wine feels thick, coating the sides of the glass as you swirl. A light-bodied wine is almost like water. A medium-bodied wine is in-betwee</p>
+                                    <p class="mb-0 text-white-50">This refers to the perceived “weight” and viscosity of the wine. A full-bodied wine feels thick, coating the sides of the glass as you swirl. A light-bodied wine is almost like water. A medium-bodied wine is in-between.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-1 col-lg-2"></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="text-white" id="vis-body"></div>
+                        <svg height="30" width="600">
+                            <defs>
+                              <marker id='head' orient="auto"
+                                markerWidth='3' markerHeight='4'
+                                refX='0.1' refY='2'>
+                                <path d='M0,0 V4 L2,2 Z' fill="black"/>
+                              </marker>
+                            </defs>
+
+                            <path
+                              id='arrow-line'
+                              marker-end='url(#head)'
+                              stroke-width='4'
+                              fill='none' stroke='black'  
+                              d='M80,8, 500 8,120'
+                              />
+                            <text x="80" y="25" style="font: bold 14px sans-serif">Body</text>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </section>
@@ -197,7 +257,7 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-robot text-primary mb-2"></i>
+                                <i class="fas fa-fire-burner text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Hendrik Hilsberg</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">Robotic Master Student, EPFL</div>
@@ -440,7 +500,7 @@ var tooltip = d3.select("#vis")
   }
 // bubbleChart creation function; instantiate new bubble chart given a DOM element to display it in and a dataset to visualise
 function bubbleChartAxis() {
-  const width = 950;
+  const width = 600;
   const height = 400;
 
   // location to centre the bubbles
@@ -487,7 +547,7 @@ function bubbleChartAxis() {
 
   // main entry point to bubble chart, returned by parent closure
   // prepares rawData for visualisation and adds an svg element to the provided selector and starts the visualisation process
-  let chartAxis = function chartAxis(selector, rawData) {
+  let chartAxis = function chartAxis(selector, rawData, cat) {
     // convert raw data into nodes data
     nodes = createNodesAxis(rawData);
 
@@ -510,7 +570,7 @@ function bubbleChartAxis() {
       .classed('bubble', true)
       .attr('r', d => d.radius)
       .attr('fill', d => fillColour(d.type))
-      .attr("cx", d => d.tannin*120)
+      .attr("cx", d => d[cat]*120)
       .attr("cy", d =>900-Math.log(d.size)*110) // or use d.size (1-) //d.id*15+120 //1000-Math.log(d.size)*110 //200-d.size/25
       .on("mouseover", showTooltipAxis)
       .on("mousemove", moveTooltipAxis)
@@ -528,9 +588,6 @@ function bubbleChartAxis() {
     .append("path")
     .attr("d", "M 0 0 12 6 0 12 3 6")
     .style("fill", "black");
-
-
-
   }
 
 
@@ -544,13 +601,16 @@ let myBubbleChartAxis = bubbleChartAxis();
 // function called once promise is resolved and data is loaded from csv
 // calls bubble chart function to display inside #vis div
 function display(data) {
-  myBubbleChartAxis('#vis-sweetness', data);
+  myBubbleChartAxis('#vis-sweetness', data, "sweet");
+  myBubbleChartAxis('#vis-acidity', data, "acidity");
+  myBubbleChartAxis('#vis-tannin', data, "tannin");
+  myBubbleChartAxis('#vis-body', data, "body");
 }
 
 // load data
-d3.csv('wine_top_varieties3.csv').then(display);
+d3.csv('wine_top_varieties4.csv').then(display);
 
-var tooltipAxis = d3.select("#vis-sweetness")
+var tooltipAxis = d3.selectAll("#vis-sweetness,#vis-body,#vis-tannin,#vis-acidity")
                 .append("div")
                 .attr('class', 'tooltipAxis')
                 .style('width', 200 + 'px')
@@ -566,3 +626,37 @@ var tooltipAxis = d3.select("#vis-sweetness")
 
     </body>
 </html>
+<!-- 
+tooltipAxis['acidity'] = d3.select("#vis-acidity")
+                .append("div")
+                .attr('class', 'tooltipAxis')
+                .style('width', 200 + 'px')
+                .style("opacity", 0)
+                .style("background-color", "black")
+                .style("border-radius", "5px")
+                .style("position","relative")
+                .style("padding", "10px")
+                .style("color", "white")
+
+tooltipAxis['body'] = d3.select("#vis-body")
+                .append("div")
+                .attr('class', 'tooltipAxis3')
+                .style('width', 200 + 'px')
+                .style("opacity", 0)
+                .style("background-color", "black")
+                .style("border-radius", "5px")
+                .style("position","relative")
+                .style("padding", "10px")
+                .style("color", "white")
+
+tooltipAxis['tannin'] = d3.select("#vis-tannin")
+                .append("div")
+                .attr('class', 'tooltipAxis4')
+                .style('width', 200 + 'px')
+                .style("opacity", 0)
+                .style("background-color", "black")
+                .style("border-radius", "5px")
+                .style("position","relative")
+                .style("padding", "10px")
+                .style("color", "white")
+-->
