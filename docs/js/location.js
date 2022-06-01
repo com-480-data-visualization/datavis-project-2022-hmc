@@ -1,6 +1,6 @@
 function init(){
    
-   document.getElementById('select').onchange = function() {
+   document.getElementById('custom-select').onchange = function() {
        update(this.value,3,'France')
   }
     var region = null;
