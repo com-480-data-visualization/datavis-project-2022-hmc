@@ -3,7 +3,7 @@ function init(){
    document.getElementById('custom-select').onchange = function() {
        update(this.value,3,'France')
   }
-    var region = null;
+   var region = null;
    var selected_country = "";
    var selected_region = "";
    var format = d3.format(",");
@@ -11,8 +11,6 @@ function init(){
   var current_width = window.innerWidth;
   var current_height = window.innerHeight;
 
-  console.log(current_width)
-  console.log(current_height)
   var   width = 0.65*current_width,
         height = 0.86*current_height,
         active = d3.select(null);
