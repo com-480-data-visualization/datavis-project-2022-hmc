@@ -9,11 +9,18 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles_search.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+        <script src="search.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -38,7 +45,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Search</h2>
+                        <h2 class="text-black mb-4">Search</h2>
                     </div>
                 </div>
             </div>
@@ -118,69 +125,76 @@
                   </div>
                   <hr>
                   <div class="row">
-                    <div class="col-md-2 mb-3">
-                      <!--<label for="validationDefault01">First name</label>-->
-                      <label for="validationDefault01">Alcool by Volume</label>
-                      <input type="range" class="form-range" id="user-input10" placeholder="Alcool by Volume" min="0" max="50">
-                    </div>
-                    <div class="col-md-2 mb-3">
-                      <label for="validationDefault01">Sweet</label></br>
+                    <div class="col-md-3 mb-1">
+                      <label for="validationDefault01">Sweet</label><br>
                       <input type="checkbox" id="user-sweet1" value="SWEET1">
-                      <label for="user-sweet1"> 1</label><br>
+                      <label for="user-sweet1"> 1</label>
                       <input type="checkbox" id="user-sweet2" value="SWEET2">
-                      <label for="user-sweet2"> 2</label><br>
+                      <label for="user-sweet2"> 2</label>
                       <input type="checkbox" id="user-sweet3" value="SWEET3">
-                      <label for="user-sweet3"> 3</label><br>
+                      <label for="user-sweet3"> 3</label>
                       <input type="checkbox" id="user-sweet4" value="SWEET4">
-                      <label for="user-sweet4"> 4</label><br>
+                      <label for="user-sweet4"> 4</label>
                       <input type="checkbox" id="user-sweet5" value="SWEET5">
-                      <label for="user-sweet5"> 5</label><br>
+                      <label for="user-sweet5"> 5</label>
                     </div>
                     <!--erreur dans les noms, a corriger-->
-                    <div class="col-md-2 mb-3">
-                      <label for="validationDefault02">Acidity</label></br>
+                    <div class="col-md-3 mb-1">
+                      <label for="validationDefault02">Acidity</label><br>
                       <input type="checkbox" id="user-acidity1" value="ACIDITY1">
-                      <label for="user-acidity1"> 1</label><br>
+                      <label for="user-acidity1"> 1</label>
                       <input type="checkbox" id="user-acidity2" value="ACIDITY2">
-                      <label for="user-acidity2"> 2</label><br>
+                      <label for="user-acidity2"> 2</label>
                       <input type="checkbox" id="user-acidity3" value="ACIDITY3">
-                      <label for="user-acidity3"> 3</label><br>
+                      <label for="user-acidity3"> 3</label>
                       <input type="checkbox" id="user-acidity4" value="ACIDITY4">
-                      <label for="user-acidity4"> 4</label><br>
+                      <label for="user-acidity4"> 4</label>
                       <input type="checkbox" id="user-acidity5" value="ACIDITY5">
-                      <label for="user-acidity5"> 5</label><br>
+                      <label for="user-acidity5"> 5</label>
                     </div>
-                    <div class="col-md-2 mb-3">
-                      <label for="validationDefault03">Tannin</label></br>
-                      <input type="checkbox" id="user-tannin1" value="TANNIN1">
-                      <label for="user-tannin1"> 1</label><br>
-                      <input type="checkbox" id="user-tannin2" value="TANNIN2">
-                      <label for="user-tannin2"> 2</label><br>
-                      <input type="checkbox" id="user-tannin3" value="TANNIN3">
-                      <label for="user-tannin3"> 3</label><br>
-                      <input type="checkbox" id="user-tannin4" value="TANNIN4">
-                      <label for="user-tannin4"> 4</label><br>
-                      <input type="checkbox" id="user-tannin5" value="TANNIN5">
-                      <label for="user-tannin5"> 5</label><br>
-                    </div>
-                    <div class="col-md-2 mb-3">
-                      <label for="validationDefault04">Body</label></br>
-                      <input type="checkbox" id="user-body1" value="BODY1">
-                      <label for="user-body1"> 1</label><br>
-                      <input type="checkbox" id="user-body2" value="BODY2">
-                      <label for="user-body2"> 2</label><br>
-                      <input type="checkbox" id="user-body3" value="BODY3">
-                      <label for="user-body3"> 3</label><br>
-                      <input type="checkbox" id="user-body4" value="BODY4">
-                      <label for="user-body4"> 4</label><br>
-                      <input type="checkbox" id="user-body5" value="BODY5">
-                      <label for="user-body5"> 5</label><br>
-                    </div>
-                    <div class="col-md-2 mb-3">
+                    <div class="col-md-3 mb-1">
+                        <br>
                         <!--<button class="btn btn-primary btn-sm" type="submit">Search</button>-->
                         <button id="button" class="btn btn-secondary">Apply</button>
                     </div>
+                    <div class="col-md-3 mb-1">
+                        <br>
+                        <!--<button class="btn btn-primary btn-sm" type="submit">Search</button>-->
+                        <button id="button_reset" type="reset" class="btn btn-secondary">Reset</button>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3 mb-1">
+                      <label for="validationDefault03">Tannin  :</label><br>
+                      <input type="checkbox" id="user-tannin1" value="TANNIN1">
+                      <label for="user-tannin1"> 1</label>
+                      <input type="checkbox" id="user-tannin2" value="TANNIN2">
+                      <label for="user-tannin2"> 2</label>
+                      <input type="checkbox" id="user-tannin3" value="TANNIN3">
+                      <label for="user-tannin3"> 3</label>
+                      <input type="checkbox" id="user-tannin4" value="TANNIN4">
+                      <label for="user-tannin4"> 4</label>
+                      <input type="checkbox" id="user-tannin5" value="TANNIN5">
+                      <label for="user-tannin5"> 5</label>
+                    </div>
+                    <div class="col-md-3 mb-1">
+                      <label for="validationDefault04">Body   </label><br>
+                      <input type="checkbox" id="user-body1" value="BODY1">
+                      <label for="user-body1"> 1</label>
+                      <input type="checkbox" id="user-body2" value="BODY2">
+                      <label for="user-body2"> 2</label>
+                      <input type="checkbox" id="user-body3" value="BODY3">
+                      <label for="user-body3"> 3</label>
+                      <input type="checkbox" id="user-body4" value="BODY4">
+                      <label for="user-body4"> 4</label>
+                      <input type="checkbox" id="user-body5" value="BODY5">
+                      <label for="user-body5"> 5</label>
+                    </div>
+                    
                   </div>
+                   
+
+                  
                   
                 </form>
                 <br>
@@ -207,14 +221,7 @@
               </div>
               </div>
             <br>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://d3js.org/d3.v5.min.js"></script>
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
-        <script src="app1.js"></script>
+
+
     </body>
 </html>
