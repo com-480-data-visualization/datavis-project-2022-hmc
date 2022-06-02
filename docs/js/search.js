@@ -1,9 +1,15 @@
 d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-hmc/main/docs/data/cleansingWine.csv").then(function (data) {
     var wine = data;
     var button = d3.selectAll("#button");
+    var button_reset = d3.select("#button_reset");
     var form = d3.select("#form");
     button.on("click", function(d){
     	runEnter(wine)
+    });
+    button_reset.on("click", function(d){
+      inputValue1 =$("#user-input1").val("");
+      inputValue6 =$("#user-input6").val("")
+      runEnter(wine)
     });
     form.on("submit", function(d){
     	runEnter(wine)
