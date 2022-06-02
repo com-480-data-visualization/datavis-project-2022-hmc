@@ -234,7 +234,7 @@ function init(){
 
     function reset() {  
       level = 0;
-      update('nation', level, "");
+      update('undefined', level, "");
       region.classed('hidden', true);
       result_nb_wine.textContent = "";
       region_selected.textContent = "";
