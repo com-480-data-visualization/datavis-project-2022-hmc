@@ -341,9 +341,6 @@ a > code {
 }
 
 
-
-
-
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -1104,6 +1101,8 @@ body {
   color: #FFA500;
   border-radius: 1px;
   pointer-events: none;
+  z-index: 1;
+  position: relative;
 }
 
 /* Creates a small triangle extender for the tooltip */
@@ -1116,15 +1115,17 @@ body {
   color: rgba(0, 0, 0, 0.6);
   position: absolute;
   pointer-events: none; 
+  z-index: 1;
 }
 
 /* Northward tooltips */
 .d3-tip.n:after {
   content: "\25BC";
-  margin: -1px 0 0 0;
+  margin: 10px 0 0 0;
   top: 100%;
   left: 0;
   text-align: center;
+  z-index: 1;
 }
 
 /* Eastward tooltips */
@@ -1133,6 +1134,7 @@ body {
   margin: -4px 0 0 0;
   top: 50%;
   left: -8px;
+  z-index: 1;
 }
 
 /* Southward tooltips */
@@ -1142,6 +1144,7 @@ body {
   top: -8px;
   left: 0;
   text-align: center;
+  z-index: 1;
 }
 
 /* Westward tooltips */
@@ -1150,6 +1153,7 @@ body {
   margin: -4px 0 0 -1px;
   top: 50%;
   left: 100%;
+  z-index: 1;
 }
 
 #custom-select {

@@ -1,0 +1,353 @@
+varieties,count
+Cabernet Sauvignon,2816
+Chardonnay,2622
+Pinot Noir,2619
+Merlot,1679
+Syrah & Shiraz,1379
+Sangiovese,906
+Sauvignon blanc,736
+Tempranillo,618
+Blend,576
+Grenache,558
+Riesling,476
+Nebbiolo,453
+Moscato,345
+Malbec,316
+Carmenere,253
+Zinfandel,188
+Barbera,179
+Semillon,158
+Montepulciano,149
+Corvina,148
+Monastrell,141
+Garnacha,133
+Macabeo,133
+Cabernet Franc,129
+Viognier,93
+Primitivo,92
+Nero d'Avola,91
+Gamay,90
+Trebbiano,85
+Pinot Grigio,84
+Glera,80
+Gewurztraminer,73
+Carignan,71
+Pinot Gris,70
+Chenin Blanc,67
+Brachetto,65
+Garganega,64
+Pinot Meunier,61
+Touriga Nacional,58
+Aglianico,55
+Vermentino,51
+Grenache Blanc,51
+Sangiovese Grosso,51
+Dolcetto,48
+Airen,45
+Bordeaux Blend Red,44
+Negroamaro,44
+Malvasia,42
+Cortese,41
+Prosecco,40
+Corvina Veronese,40
+Petite Sirah,39
+Pinotage,39
+Nerello Mascalese,38
+mourvedre,37
+Marsanne,37
+Muscat,35
+Verdejo,34
+Viura,31
+Rousaanne,30
+Pinot Blanc,29
+Aligote,28
+Grenache Noir,27
+Pinot Nero,26
+Vidal,26
+Lambrusco,25
+Cinsault,24
+Furmint,24
+Gruner Veltliner,23
+Torrontes,22
+Silvaner,21
+Grillo,21
+Prugnolo Gentile,20
+Bobal,20
+Colombard,20
+Zweigelt,19
+Petit Verdot,19
+Mauzac,18
+Mencia,17
+Moscatel,17
+Palomino,16
+Fiano,16
+Arneis,16
+Tinta Roriz,15
+Tannat,15
+Tinto Fino,15
+Moscato Bianco,15
+Brunello,14
+Sagrantino,14
+Pecorino,14
+Xinomavro,13
+Verdicchio Bianco,13
+Dornfelder,13
+Muscat Bailey A , MBA,12
+Touriga Franca,12
+Falanghina,12
+Clairette,12
+Blaufrankisch,12
+Cannonau,12
+Assyrtiko,12
+Pinot Bianco,12
+Tinta Negra Mole,11
+Friulano,11
+Apple,11
+Parellada,11
+Muscadet,11
+Pedro Ximenez,10
+Etc,10
+Castelao,10
+Greco Bianco,10
+Nero di Troia,10
+Carricante,10
+Scheurebe,9
+Saperavi,9
+Trepat,9
+Albarino,9
+Inzolia,9
+Concord,9
+Aragonez,9
+Trincadeira,8
+Muller Thurgau,8
+Grechetto Bianco,8
+Carinena,8
+Kyoho,8
+Tinta de Toro,8
+Ribolla Gialla,8
+Spatburgunder,7
+Lambrusco Grasparossa,7
+Savagnin,7
+Alicante Bouschet,7
+Melon de Bourgogne,7
+Welschriesling,7
+Moscatel de Setubal,6
+Rkatsiteli,6
+Lacrima,6
+Catarratto,6
+Rolle,6
+Bourboulenc,6
+Lagrein,6
+Rebula,6
+Ortega,6
+Freisa,6
+Refosco,6
+Bosco,6
+Godello,6
+Grolleau Gris,5
+Bonarda,5
+Poulsard,5
+Carignano,5
+Grecanico Dorato,5
+Garnacha Negra,5
+Auxerrois,5
+Procanico,5
+Zibibbo,5
+Arinto,5
+Vernaccia,5
+Tinta Francisca,5
+Coda di Volpe,5
+Trousseau,5
+Koshu,5
+Marzemino,5
+Pardina,5
+Raboso,5
+Omija,4
+Malvasia Fina,4
+Valdiguie,4
+Port Blend,4
+Garnacha Tintorera,4
+Moscato Giallo,4
+Rivaner,4
+Gros Manseng,4
+Clairette Blanche,4
+Viosinho,4
+Frappato,4
+Picolit,4
+Plavac Mali,4
+Loureiro,4
+Muscat Canelli,4
+Garnacha Blanca,4
+Favorita,4
+Fernao Pires,4
+Blackberry,4
+Tocai Friulano,4
+Verdelho,3
+Kerner,3
+Piedirosso,3
+Moschofilero,3
+Limnio,3
+Roditis,3
+Agiorgitiko,3
+Lambrusco Salamino,3
+Baga,3
+Bordeaux Blend White,3
+Verduzzo Friulano,3
+Sercial,3
+Nascetta,3
+Aleatico,3
+Graciano,3
+Tinta Barroca,3
+Muscat of Alexandria,3
+Macabeu,3
+Malvasia nera,3
+Gaglioppo,3
+Muscat Blanc Petits Grains,3
+Susumaniello,3
+Grenache Gris,3
+Zelen,3
+Trajadura,3
+Pignoletto,3
+Black Grenache,3
+Treixadura,2
+Garnatxa Peluda,2
+Bombino Bianco,2
+Pear,2
+Lambrusco Maestri,2
+Malvasia di Candida,2
+Merseguera,2
+Muscatel,2
+Uva di Troia,2
+Malvasia di Candia Aromatica,2
+Sauvignon Blanc Musque,2
+Frontignac,2
+Champagne Blend,2
+Timorasso,2
+Encruzado,2
+Bacchus,2
+Beta,2
+Turbiano,2
+Savatiano,2
+Traminer,2
+Ciliegiolo,2
+Posip,2
+Rotgipfler,2
+Refosco dal Peduncolo,2
+Ansonica,2
+Grand Noir,2
+Fruhroter Veltliner,2
+Rabigato,2
+Petit Courbu,2
+Roupeiro,2
+Pignolo,2
+Terret Blanc,2
+Herbs,2
+Picpoul,2
+Canelli Moscato,2
+Malvasia Bianca,2
+Petit Manseng,2
+Apple Busa,2
+Huxelrebe,2
+Bical,2
+Verdeca,2
+Teroldego,2
+Portugieser,2
+Mataro,2
+Croatina,2
+Cococciola,2
+Jacquere,2
+Malvasia di Schierano,2
+Blueberry,2
+Moscato Rosa,2
+Malvasia Istriana,2
+Colorino,2
+Vitovska,1
+Klarnica,1
+Fer Servadou,1
+Malvasia Puntinata,1
+Plum,1
+Pinela,1
+Durella,1
+Petit Meslier,1
+Natural Honey,1
+Grolleau Noir,1
+Verdil,1
+Abouriou,1
+Moscatel del Alejandria,1
+Mout Blanc,1
+Bellone Bianco,1
+Muscat d'Alexandrie,1
+Sauvignon Vert,1
+Ruche,1
+Mavrud,1
+Antao Vaz,1
+Yellow Muscat,1
+Bual,1
+Hondarrabi Zuri,1
+Negrette,1
+Touriga Francesa,1
+Folle Blanche,1
+Chasselas,1
+Mondeuse Noire,1
+Altesse,1
+Vilana,1
+Albana,1
+Orange Muscat,1
+Passerina,1
+Feberrebe,1
+Nuragus,1
+Fortana,1
+Gouveio,1
+Rondinella,1
+Flora,1
+Tardana,1
+Corvinone,1
+Parellada Montonegra,1
+Sauvignonasse,1
+Fume Blanc,1
+Bovale,1
+Pineapple,1
+Pais,1
+Garnacha 비앙카,1
+Kekfrankos,1
+Kotsifali,1
+Manzoni Moscato,1
+Aramon,1
+Picpoul Blanc,1
+Minutolo,1
+Cienna,1
+Canaiolo,1
+Malvasia di Candia,1
+Nerobuono,1
+Malvasia Rei,1
+Chenin Noir,1
+Pelaverga,1
+Siria,1
+Azal Blanco,1
+Pomace,1
+Black Muscat,1
+Malbo Gentile,1
+Samso,1
+Vespaiolo,1
+Malagousia,1
+Lambrusco Marani,1
+Bastardo,1
+Rice,1
+Feteasca Regala,1
+Rebo,1
+Biancame,1
+Bouvier,1
+Weissburgunder,1
+Faberrebe,1
+Mavrodaphne,1
+Feteasca Neagra,1
+Grignolino,1
+Vinhao,1
+Morillon,1
+Sivi Pinot,1
+Monica,1
+Bovale Sardo,1
+Gatarratto,1
+Symphony,1
+Onion,1
+Franconia,1

@@ -23,6 +23,7 @@ function init(){
    var zoom = d3.zoom().on("zoom", zoomed);
    var path = d3.geoPath().projection(projection);
 
+
    var tip_country = d3.tip()
         .attr('class', 'd3-tip')
         .offset([0, 0])
