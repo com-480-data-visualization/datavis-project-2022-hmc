@@ -204,7 +204,7 @@ function runEnter(wine) {
         var output = _.sortBy(filteredWine, 'id').reverse()
 
 
-
+    nb_result.textContent = "Result - " + output.length +"/21605";
     /*document.getElementById("demo").innerHTML = "borrrr";*/
     /*for (var i = 0; i < filteredWine9.length; i++) {*/
     for (var i = 0; i < 30; i++) {
