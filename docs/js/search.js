@@ -1,6 +1,6 @@
 d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-hmc/main/docs/data/cleansingWine.csv").then(function (data) {
     var wine = data;
-    var button = d3.select("#button");
+    var button = d3.selectAll("#button");
     var form = d3.select("#form");
     button.on("click", function(d){
     	runEnter(wine)
@@ -11,6 +11,19 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/datavis-pro
     autocomplete(wine)
 
 })
+
+function reset(){
+  console.log("RESET")
+  runEnter(wine)
+}
+
+function plot_stars(nb_stars){
+  str = []
+  for (var i = 0; i < nb_stars; i++){
+    str = str + '<i class="fas fa-star text-primary" style="font-size:9px"></i>'
+  }
+  return str
+}
 
 function runEnter(wine) {
 	    
@@ -179,14 +192,16 @@ function runEnter(wine) {
         }
         else{var filteredWine = filteredWine_body1;}
 
-        console.log(filteredWine)
+        //console.log(filteredWine)
         var output =filteredWine
         autocomplete(output)
         var output = _.sortBy(filteredWine, 'id').reverse()
 
+
+
     /*document.getElementById("demo").innerHTML = "borrrr";*/
     /*for (var i = 0; i < filteredWine9.length; i++) {*/
-    for (var i = 0; i < 200; i++) {
+    for (var i = 0; i < 30; i++) {
     d3.select("tbody").insert("tr").html(
     "<td>" + [i+1] + "</td>" +
     "<td>" + (output[i]['name'])+"</a>"+"</td>" + 
@@ -194,12 +209,13 @@ function runEnter(wine) {
     "<td>" + (output[i]['nation'])+"</td>" +
     "<td>" + (output[i]['local1'])+"</td>" +
     "<td>" + (output[i]['type'])+"</td>" + 
-    "<td>" + (output[i]['sweet'])+"</td>" + 
-    "<td>" + (output[i]['acidity'])+"</td>" + 
-    "<td>" + (output[i]['tannin'])+"</td>" + 
-    "<td>" + (output[i]['body'])+"</td>" +
+    "<td>" + (plot_stars(parseInt(output[i]['sweet'].charAt(output[i]['sweet'].length - 1))))+"</td>" + 
+    "<td>" + (plot_stars(parseInt(output[i]['acidity'].charAt(output[i]['acidity'].length - 1))))+"</td>" + 
+    "<td>" + (plot_stars(parseInt(output[i]['tannin'].charAt(output[i]['tannin'].length - 1))))+"</td>" + 
+    "<td>" + (plot_stars(parseInt(output[i]['body'].charAt(output[i]['body'].length - 1))))+"</td>" +
     "<td>" + (output[i]['use'])+"</td>" +
-    "<td>" + (output[i]['ml'])+"</td>") 
+    "<td>" + (output[i]['varieties1'])+"</td>") 
+    //+ "<td>" + (output[i]['ml'])+"</td>") 
     };
   
         
