@@ -129,7 +129,7 @@ function init(){
 
     function clicked(bounds, world, country, wine_loc, wine_dataset) {
       var level = 1;
-      update('year',level,country)
+      update('undefined',level,country)
 
       region = d3.selectAll('.region')
                  .remove();
@@ -198,7 +198,7 @@ function init(){
             region_selected.textContent = "You have selected "  + d.properties.name+ " !";
             region_select= d.properties.name
             level = 2;
-            update('year',level,region_select)
+            update('undefined',level,region_select)
   
              
           })
@@ -306,6 +306,18 @@ function init(){
     return locationRem;
     }());
 
+    var selectedvarRem = (function() {
+      var selectedVar = "year";
+      function selectedvarRem(newVar) {
+        if(newVar != "undefined"){
+          selectedVar = newVar;
+        }
+        console.log(newVar)
+        return selectedVar;
+      }
+    return selectedvarRem;
+    }());
+
     var margin_graph = {top_g: 10, right_g: 10, bottom_g: 50, left_g: 120},
         width_graph = 0.31*current_width - margin_graph.left_g - margin_graph.right_g,
         height_graph = 0.7*current_height - margin_graph.top_g - margin_graph.bottom_g;
@@ -330,6 +342,7 @@ function init(){
     function update(selectedVar,level,location) {
 
       d3.json("https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-hmc/main/docs/Wine.json", function(data) {
+        selectedVar = selectedvarRem(selectedVar)
         location = locationRem(level,location)
         level = levelRem(level)
 
