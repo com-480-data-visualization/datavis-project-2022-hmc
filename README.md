@@ -10,7 +10,7 @@
 
 ### Milestone 1:  [Milestone 1](./Milestone/Milestone1.md)
 ### Milestone 2:  [Milestone 2](./Milestone/Milestone2.md) (in pdf version: [Milestone 2](./Milestone/Milestone2.pdf) )
-### Milestone 3: (to be added) process book: video:
+### Milestone 3: (to be added) process book: [video](https://drive.google.com/drive/folders/1jcNN1umqp4zI_OiV0H8SnzchlDbCSG_W?usp=sharing)
 
 The project is structured as follows:
 
