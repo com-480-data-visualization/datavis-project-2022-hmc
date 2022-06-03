@@ -28,7 +28,7 @@ We decided to implement the second proposal.
 
 ### Reuse the sketches/plans that you made for the first milestone, expanding them and explaining the changes
 
-#### Sketch of the about page:
+### Sketch of the about page:
 
 ![plot](../plots/about.PNG)
 
