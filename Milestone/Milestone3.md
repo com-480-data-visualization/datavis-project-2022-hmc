@@ -34,7 +34,7 @@ Sketch of the about page:
 ![plot](../plots/about.png)
 
 Actual about page (a part of it): 
-![plot](../plots/Screenshot 2022-06-02 at 12-27-05 Wine exploration.png)
+![plot](../plots/ccWine.png)
 
 The main changes in this page correspond to the different interactive plots added and also the definitions of the key concepts for wine.
 
@@ -43,15 +43,15 @@ The main changes in this page correspond to the different interactive plots adde
 Sketches for the map page:
 ![plot](../plots/SSstat.png)
 
-![plot](../plots/Screenshot 2022-06-02 at 12-12-11 Location.png)
+![plot](../plots/ccLoc.png)
 
-![plot](../plots/Capture d’écran 2022-06-02 121522.png)
+![plot](../plots/cc3.png)
 
 The implemented website looks very similar to what we planned in the sketches, we simply decided to use one plot on the sidebar as it was already large and sufficient to have a sense of the different aggregated data.
 
 The filter page:
 ![plot](../plots/SSfilter.png)
-![plot](../plots/Screenshot 2022-06-02 at 15-37-24 Search wine.png)
+![plot](../plots/ccSearch.png)
 
 
 
