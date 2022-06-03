@@ -28,7 +28,7 @@ We decided to implement the second proposal.
 
 ### Reuse the sketches/plans that you made for the first milestone, expanding them and explaining the changes
 
-#### The about page:
+#### Sketch of the about page:
 
 ![plot](../plots/about.PNG)
 
@@ -38,11 +38,11 @@ We decided to implement the second proposal.
 
 The main changes in this page correspond to the different interactive plots added and also the definitions of the key concepts for wine.
 
-### The map page:
+### Sketche of the map page:
 
 ![plot](../plots/SSmap.png)
 
-### Sketches for the map page:
+### The map page:
 
 ![plot](../plots/SSstat.png)
 
@@ -52,9 +52,11 @@ The main changes in this page correspond to the different interactive plots adde
 
 The implemented website looks very similar to what we planned in the sketches, we simply decided to use one plot on the sidebar as it was already large and sufficient to have a sense of the different aggregated data.
 
-### The filter page:
+### Sketch of the filter page:
 
 ![plot](../plots/SSfilter.png)
+
+### The filter page:
 
 ![plot](../plots/ccSearch.png)
 
