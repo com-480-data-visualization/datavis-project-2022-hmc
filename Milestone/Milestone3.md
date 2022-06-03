@@ -31,7 +31,7 @@ We decided to implement the second proposal.
 #### The about page:
 
 Sketch of the about page:
-![plot](../plots/about.png)
+![plot](../plots/about.PNG)
 
 ### Actual about page (a part of it): 
 
