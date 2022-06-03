@@ -38,13 +38,13 @@ We decided to implement the second proposal.
 
 The main changes in this page correspond to the different interactive plots added and also the definitions of the key concepts for wine.
 
-### Sketche of the map page:
+### Sketch of the map page:
 
-![plot](../plots/SSmap.png)
+![plot](../plots/SSstat.png)
 
 ### The map page:
 
-![plot](../plots/SSstat.png)
+![plot](../plots/SSmap.png)
 
 ![plot](../plots/ccLoc.png)
 
