@@ -62,17 +62,6 @@ We all contributed to the different ideas \& general decisions about the website
 - Marie: add zoom function + region functionalities + preprocessing of the map in Qgis (page location.html) + auto-complete in filter
 - Clément: about page (index.html) + preprocessing in the dataset of the region from location + bar plot (location html)
 
-
-
-
-\subsection*{Final work}
-
-\textbf{\href{https://com-480-data-visualization.github.io/datavis-project-2022-hmc/}{Website Wine exploration}}
-
-\textbf{\href{https://drive.google.com/drive/folders/1jcNN1umqp4zI_OiV0H8SnzchlDbCSG_W?usp=sharing}{Screencast website presentation}}
-
-![plot](../plots/page_acc.png)
-
 ## Links
-Here is the link to our website : [Wine exploration website]([https://com-480-data-visualization.github.io/datavis-project-2022-hmc/index.html](https://com-480-data-visualization.github.io/datavis-project-2022-hmc/)) \
-Here is the link to our screencast video : [Screencast video presentation]([https://com-480-data-visualization.github.io/datavis-project-2022-hmc/index.html](https://com-480-data-visualization.github.io/datavis-project-2022-hmc/)) \
+Here is the link to our website : [Wine exploration website](https://com-480-data-visualization.github.io/datavis-project-2022-hmc/) \
+Here is the link to our screencast video : [Screencast video presentation](https://drive.google.com/drive/folders/1jcNN1umqp4zI_OiV0H8SnzchlDbCSG_W?usp=sharing)
