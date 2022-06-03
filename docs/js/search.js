@@ -7,8 +7,38 @@ d3.csv("https://raw.githubusercontent.com/com-480-data-visualization/datavis-pro
     	runEnter(wine)
     });
     button_reset.on("click", function(d){
-      inputValue1 =$("#user-input1").val("");
+      //document.getElementById("#user-input1")="";
+      inputValue =$("#user-input").val("")
+      inputValue1 =$("#user-input1").val("")
+      inputValue2 =$("#user-input2").val("")
+      inputValue3 =$("#user-input3").val("")
+      inputValue4 =$("#user-input4").val("")
+      inputValue5 =$("#user-input5").val("")
       inputValue6 =$("#user-input6").val("")
+      inputValue7 =$("#user-input7").val("Type")
+      inputValue8 =$("#user-input8").val("Volume")
+      inputValue9 =$("#user-input9").val("Use")
+      $("#user-acidity1").prop("checked", false);
+      $("#user-acidity2").prop("checked", false);
+      $("#user-acidity3").prop("checked", false);
+      $("#user-acidity4").prop("checked", false);
+      $("#user-acidity5").prop("checked", false);
+      $("#user-tannin1").prop("checked", false);
+      $("#user-tannin2").prop("checked", false);
+      $("#user-tannin3").prop("checked", false);
+      $("#user-tannin4").prop("checked", false);
+      $("#user-tannin5").prop("checked", false);
+      $("#user-body1").prop("checked", false);
+      $("#user-body2").prop("checked", false);
+      $("#user-body3").prop("checked", false);
+      $("#user-body4").prop("checked", false);
+      $("#user-body5").prop("checked", false);
+      $("#user-sweet1").prop("checked", false);
+      $("#user-sweet2").prop("checked", false)
+      $("#user-sweet3").prop("checked", false)
+      $("#user-sweet4").prop("checked", false)
+      $("#user-sweet5").prop("checked", false)
+
       runEnter(wine)
     });
     form.on("submit", function(d){
