@@ -38,7 +38,7 @@ Actual about page (a part of it):
 
 The main changes in this page correspond to the different interactive plots added and also the definitions of the key concepts for wine.
 
-The map page:
+### The map page:
 ![plot](../plots/SSmap.png)
 Sketches for the map page:
 ![plot](../plots/SSstat.png)
