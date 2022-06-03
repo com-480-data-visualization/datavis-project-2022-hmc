@@ -30,7 +30,6 @@ We decided to implement the second proposal.
 
 #### The about page:
 
-Sketch of the about page:
 ![plot](../plots/about.PNG)
 
 ### Actual about page (a part of it): 
@@ -56,6 +55,7 @@ The implemented website looks very similar to what we planned in the sketches, w
 ### The filter page:
 
 ![plot](../plots/SSfilter.png)
+
 ![plot](../plots/ccSearch.png)
 
 
